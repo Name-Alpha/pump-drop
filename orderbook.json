@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-05T22:04:45.843055",
-  "scan_time": "20260105_220445",
-  "total_tokens": 1,
-  "buy_signals": 1,
+  "timestamp": "2026-01-05T22:13:40.842619",
+  "scan_time": "20260105_221340",
+  "total_tokens": 2,
+  "buy_signals": 2,
   "watch_signals": 0,
   "skip_signals": 0,
   "tokens": [
@@ -19,15 +19,39 @@
       "buys": 6,
       "sells": 2,
       "price_change": 18.057,
-      "ai_reasoning": "**BUY | Limit:0% | TP:+10% | SL:-10% | Time:2h-6h**\n\n---\n\n### **Explanation of Parameters:**\n\n1. **Decision: BUY**  \n   - The trade is recommended due to strong buying pressure (buying ratio of 3.0 > 1.5), indicating potential upward momentum.\n\n2. **Limit: 0%**  \n   - For strong buying pressure, the rule specifies entering the trade at the current price (0% limit), as the market is likely to move upward immediately.\n\n3. **Take Profit: +10%**  \n   - The trade is expected to close at a 10% gain, which is the upper end of the range for low-volume conditions (5%\u201310%). This accounts for potential price movement in a low-liquidity environment.\n\n4. **Stop Loss: -10%**  \n   - The stop loss is set at -10%, reflecting the middle of the range for medium-volatility conditions (-8% to -15%). This balances risk and reward while allowing room for short-term fluctuations.\n\n5. **Time Frame: 2h-6h**  \n   - The time frame is determined by the low volume, which suggests a slower, more range-bound movement. The range (2h\u20136h) allows for flexibility in capturing the trade without overexposure to volatility.\n\n---\n\nThis strategy is optimized for a low-volume, medium-volatility environment, with a focus on capturing short-term gains while managing risk through a clear stop-loss and take-profit structure.",
+      "ai_reasoning": "BUY | Limit:0% | TP:+5% to +10% | SL:-8% to -15% | Time:2h to 6h",
       "trading_params": {
         "limit_order_price": 7.392668051251764e-05,
         "limit_order_pct": 0.0,
-        "take_profit_price": 8.131934856376941e-05,
-        "take_profit_pct": 10.0,
-        "stop_loss_price": 6.653401246126588e-05,
-        "stop_loss_pct": -10.0,
+        "take_profit_price": 7.762301453814353e-05,
+        "take_profit_pct": 5.0,
+        "stop_loss_price": 6.801254607151624e-05,
+        "stop_loss_pct": -8.0,
         "time_frame": "2h"
+      }
+    },
+    {
+      "name": "PUMP / USDC",
+      "mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+      "pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "chart_url": "https://geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+      "decision": "BUY",
+      "current_price": 0.0024725054010998012,
+      "volume": 8461.2254881141,
+      "fdv": 2472478786.67114,
+      "reserve": 15420896.9839,
+      "buys": 26,
+      "sells": 0,
+      "price_change": 0.205,
+      "ai_reasoning": "**Reasoning:**  \n- **BUY/SELL PRESSURE:** 26.0 ratio (strong buying) + stable momentum \u2192 aggressive BUY with standard parameters.  \n- **LIMIT ORDER:** Strong buying pressure (rule 2) \u2192 0% (market order).  \n- **TAKE PROFIT:** Medium volume ($8k) \u2192 +10% to +20%; stable momentum \u2192 +15% TP.  \n- **STOP LOSS:** Low volatility (0.2% price change) \u2192 -5% to -8%; stable momentum \u2192 -8% SL.  \n- **TIME FRAME:** Medium volume + stable momentum \u2192 4h (balancing liquidity and trend stability).",
+      "trading_params": {
+        "limit_order_price": 0.0024725054010998012,
+        "limit_order_pct": 0.0,
+        "take_profit_price": 0.002843381211264771,
+        "take_profit_pct": 15.0,
+        "stop_loss_price": 0.002274704969011817,
+        "stop_loss_pct": -8.0,
+        "time_frame": "4h"
       }
     }
   ]
