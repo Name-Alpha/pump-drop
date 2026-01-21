@@ -1,11 +1,35 @@
 {
-  "timestamp": "2026-01-21T00:32:18.917186",
-  "scan_time": "20260121_003218",
+  "timestamp": "2026-01-21T00:42:50.549935",
+  "scan_time": "20260121_004250",
   "total_tokens": 3,
   "buy_signals": 3,
   "watch_signals": 0,
   "skip_signals": 0,
   "tokens": [
+    {
+      "name": "Dragon / SOL",
+      "mint": "5Rk1J4g2Pio98iQSu6T29Z45ecp93VZrGW4PBZjWpump",
+      "pool": "92jruoxethdwkFkiLxNzTuGW1rTg7cwPkUcWtJa9DfaY",
+      "chart_url": "https://geckoterminal.com/solana/pools/92jruoxethdwkFkiLxNzTuGW1rTg7cwPkUcWtJa9DfaY",
+      "decision": "BUY",
+      "current_price": 0.00010244116238419176,
+      "volume": 3630.5515094002,
+      "fdv": 105134.6336,
+      "reserve": 29924.2589,
+      "buys": 22,
+      "sells": 60,
+      "price_change": 24.738,
+      "ai_reasoning": "**Decision:** WATCH  \n**Reason:** The Buy/Sell ratio of 0.4 indicates more sells than buys, signaling high risk. However, the 24.7% price increase suggests potential buying pressure, warranting further observation.  \n\n**Parameters:**  \n- **Limit Order:** -3% (medium volatility range)  \n- **Take Profit:** +7% (low volume range)  \n- **Stop Loss:** -12% (medium volatility range)  \n- **Time Frame:** 1.5 hours (medium volatility, stable momentum)  \n\n**Note:** These values are dynamically derived from the rules and data, balancing risk and volatility.",
+      "trading_params": {
+        "limit_order_price": 0.00010244116238419176,
+        "limit_order_pct": 0,
+        "take_profit_price": 0.00011268527862261095,
+        "take_profit_pct": 10,
+        "stop_loss_price": 9.731910426498217e-05,
+        "stop_loss_pct": -5,
+        "time_frame": "1h"
+      }
+    },
     {
       "name": "UNEMPLOYED / SOL",
       "mint": "9X6geXi5MBVR2FiGPT7iNVPJB5LsJPeEyxiaRVAGpump",
@@ -19,39 +43,15 @@
       "buys": 372,
       "sells": 189,
       "price_change": 137.763,
-      "ai_reasoning": "**Reasoning:**  \n- **BUY/SELL PRESSURE:** Buy/sell ratio (2.0) and recent trade dominance (189 buys vs. 111 sells) indicate strong buying pressure.  \n- **LIMIT ORDER:** Price change (+137.8%) and strong buying pressure override volatility rules, using 0% (market order).  \n- **TAKE PROFIT:** Volume ($16,879) is high (> $10k), so TP is set at +25% (mid-range of 20%-40%).  \n- **STOP LOSS:** High volatility (+137.8%) and stable momentum suggest a -18% SL (mid-range of -15% to -25%).  \n- **TIME FRAME:** High volatility and stable momentum align with 1-hour time frame for aggressive entry.",
+      "ai_reasoning": "**Reasoning:**  \n- **Buy/Sell Ratio (2.0):** Strong buying pressure (>1.5) triggers aggressive BUY.  \n- **Price Change (+137.8%):** High volatility \u2192 **Limit: 0%** (strong buying overrides volatility wait).  \n- **Volume ($16,879):** High volume (> $10k) \u2192 **TP: +25%** (mid-range of +20%\u2013+40%).  \n- **Volatility:** High volatility \u2192 **SL: -15%** (mid-range of -15%\u2013-25%).  \n- **Momentum (STABLE):** Standard time frame for high volatility \u2192 **30min to 2h**.",
       "trading_params": {
         "limit_order_price": 5.080786731234231e-05,
         "limit_order_pct": 0.0,
         "take_profit_price": 6.350983414042789e-05,
         "take_profit_pct": 25.0,
-        "stop_loss_price": 4.1662451196120696e-05,
-        "stop_loss_pct": -18.0,
-        "time_frame": "1h"
-      }
-    },
-    {
-      "name": "FloydAir / SOL",
-      "mint": "39ozoKJNoedDuQ1VuBUVz2MGojFkguDReXKWP2x3pump",
-      "pool": "AoffoPb5HufA46NPAKY2TrG4esEzuB82NyBZMRHpmxcF",
-      "chart_url": "https://geckoterminal.com/solana/pools/AoffoPb5HufA46NPAKY2TrG4esEzuB82NyBZMRHpmxcF",
-      "decision": "BUY",
-      "current_price": 4.765860435324694e-05,
-      "volume": 6165.8828180029,
-      "fdv": 44833.51328,
-      "reserve": 21101.9307,
-      "buys": 51,
-      "sells": 78,
-      "price_change": 12.88,
-      "ai_reasoning": "WATCH (High sell pressure with ratio <1.0, but recent flow momentum is stable. Wait for confirmation of buying interest)  \n**Parameters**:  \n- **Limit**: -5% (medium volatility, price change +12.9%)  \n- **TP**: +8% (medium volume, $6k-$10k range)  \n- **SL**: -8% (medium volatility, balanced risk/reward)  \n- **Time**: 4h (strong trend potential with stable momentum)  \n\n**Rationale**:  \n- The buy/sell ratio (0.7) indicates stronger sell pressure, but the stable flow momentum suggests no immediate reversal.  \n- Recent trade flow (33% buys in all thirds) hints at latent buying, but the 110/190 buy/sell split in 300 trades leans toward caution.  \n- Price surged +12.9% with low volume, indicating potential for a pullback.  \n- Aggressive TP/SL balances risk while monitoring for momentum shifts.",
-      "trading_params": {
-        "limit_order_price": 4.765860435324694e-05,
-        "limit_order_pct": 0,
-        "take_profit_price": 5.242446478857164e-05,
-        "take_profit_pct": 10,
-        "stop_loss_price": 4.527567413558459e-05,
-        "stop_loss_pct": -5,
-        "time_frame": "1h"
+        "stop_loss_price": 4.3186687215490964e-05,
+        "stop_loss_pct": -15.0,
+        "time_frame": "30min"
       }
     },
     {
@@ -60,22 +60,22 @@
       "pool": "4J6j4DXVeNZFJXGiqW68n3HpsnqoqVq8TnLLYTpkcNFF",
       "chart_url": "https://geckoterminal.com/solana/pools/4J6j4DXVeNZFJXGiqW68n3HpsnqoqVq8TnLLYTpkcNFF",
       "decision": "BUY",
-      "current_price": 2.2546890639948223e-05,
-      "volume": 4815.1474503694,
-      "fdv": 21250.23511,
-      "reserve": 8485.7733,
-      "buys": 41,
-      "sells": 18,
-      "price_change": 75.641,
-      "ai_reasoning": "**Rationale:**  \n- **BUY Signal:** Buy/sell ratio (2.3) and 60%+ buy flow in all trade thirds indicate strong buying pressure. Recent trades (4 buys in last 5) and high price change (+75.6%) confirm aggressive momentum.  \n- **Limit Order:** Strong buying pressure overrides volatility, so market entry (0%).  \n- **Take Profit:** Medium volume ($4.8k) suggests +10%\u2013+20% range; +15% balances reward vs. liquidity.  \n- **Stop Loss:** High volatility (75.6% price change) requires wider SL (-15%\u2013-25%), so -18% provides room for retracement.  \n- **Time Frame:** High volatility (75.6%) + stable momentum = 1-hour trade window for quick exits.",
+      "current_price": 4.892218470875693e-05,
+      "volume": 4730.0160100308,
+      "fdv": 46542.3583,
+      "reserve": 10682.9375,
+      "buys": 48,
+      "sells": 17,
+      "price_change": 26.389,
+      "ai_reasoning": "**Rationale:**  \n- **Buy/Sell Ratio (2.8)**: Strong buying pressure (>1.5) triggers aggressive BUY with 0% limit (market order).  \n- **Volatility (26.4% price change)**: Medium volatility \u2192 -2% to -5% limit, but **strong buying pressure overrides** this, forcing 0% limit.  \n- **Volume ($4,730)**: Low volume \u2192 +5% to +10% TP (chosen +10% for higher reward).  \n- **Stop Loss**: Low volume \u2192 -5% to -8% (chosen -7% for balance).  \n- **Time Frame**: Low volume \u2192 2h-6h (shorter window to capitalize on momentum).  \n- **Momentum (STABLE)**: Standard parameters applied but amplified by strong buying pressure.",
       "trading_params": {
-        "limit_order_price": 2.2546890639948223e-05,
+        "limit_order_price": 4.892218470875693e-05,
         "limit_order_pct": 0.0,
-        "take_profit_price": 2.5928924235940456e-05,
-        "take_profit_pct": 15.0,
-        "stop_loss_price": 1.8488450324757546e-05,
-        "stop_loss_pct": -18.0,
-        "time_frame": "1h"
+        "take_profit_price": 5.381440317963263e-05,
+        "take_profit_pct": 10.0,
+        "stop_loss_price": 4.549763177914394e-05,
+        "stop_loss_pct": -7.0,
+        "time_frame": "2h"
       }
     }
   ]
