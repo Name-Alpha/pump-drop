@@ -1,1 +1,1 @@
-https://x.com/Pumpsignalsapp/status/2024802522997678351
+https://x.com/Pumpsignalsapp/status/2024814366663536915
